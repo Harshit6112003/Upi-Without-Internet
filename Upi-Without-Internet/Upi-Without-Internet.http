@@ -1,0 +1,13 @@
+
+@Upi_Without_Internet_HostAddress = http://localhost:5133
+
+POST {{Upi_Without_Internet_HostAddress}}/payment
+Content-Type: application/json
+Accept: application/json
+
+{
+  
+}
+###
+GET {{Upi_Without_Internet_HostAddress}}/payments
+Accept:application/json
